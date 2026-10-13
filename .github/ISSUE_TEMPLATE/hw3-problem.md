@@ -1,5 +1,5 @@
 ---
-name: problem
+name: HW3 Problem
 about: Suggest a coding challenge to add to this project
 title: "[PROBLEM]"
 labels: ''
