@@ -5,6 +5,8 @@
 #         self.left = left
 #         self.right = right
 
+from treenode import TreeNode
+
 class Solution:
-    def isSameTree(self, p: TreeNode | None, q: TreeNode | None) -> bool:
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         pass

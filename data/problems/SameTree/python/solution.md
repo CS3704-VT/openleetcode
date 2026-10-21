@@ -6,14 +6,16 @@ Perform a depth-first search (DFS) and recursively check nodes for equal values.
 
 ```python
 # Definition for a binary tree node.
-class TreeNode:
-     def __init__(self, val=0, left=None, right=None):
-         self.val = val
-         self.left = left
-         self.right = right
+# class TreeNode:
+#    def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+from treenode import TreeNode
 
 class Solution:
-    def isSameTree(self, p: TreeNode | None, q: TreeNode | None) -> bool:
+    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
         if (p is None or q is None):
             return p == q
         
